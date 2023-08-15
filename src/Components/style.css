@@ -1,0 +1,201 @@
+:root {
+    --blue: #2785ff;
+    --purple: #6610f2;
+    --black: #2a2f36;
+    --gray: #86909d;
+    --white: #ffffff;
+    --black: #000000;
+    --clr-common-body-text: #86909d;
+    --common-border: #2a2f36;
+    --placeholder: #b4b4b4;
+    --clr-bg-black: #1c2434;
+    --clr-bg-gray: #181f2d;
+    --clr-bg-footer: #181f2d;
+}
+.body-color{
+    background-color:var(--clr-bg-gray) !important;
+}
+a {
+    text-decoration: none !important;
+}
+.transition{
+    transition: all 0.5s;
+}
+
+/* nav */
+nav{
+    padding: 30px !important;
+}
+.navbar-toggler{
+    background-color: var(--gray);
+}
+form button{
+    background: linear-gradient(to right, #2b81ff, #7237ff, #2b81ff);
+    color:var(--white) ;
+}
+form button:hover{
+    background:linear-gradient(to right, #7237ff, #2b81ff,  #7237ff);
+}
+form{
+    color: white !important;
+}
+
+/* footer */
+footer{
+    background-color: var(--black);
+}
+footer .social a{
+    font-size: 16px;
+    padding: 8px;
+    background-color: var(--black);
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    color: #000000;
+    transition: all 1s;
+}
+footer .social a:hover{
+     background-color: var(--blue);
+     color: var(--white);
+}
+/* copyright */
+.copyright{
+    background-color: var(--clr-bg-gray);
+}
+.copyright input{
+    border: 0.5px solid var(--black);
+     padding: 10px 20px;
+     border-radius: 5px;
+     background-color: transparent;margin-right: 10px !important;
+}
+.copyright button{
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s;
+    background: linear-gradient(to right, #2b81ff, #7237ff, #2b81ff);
+}
+.copyright button:hover{
+    background:linear-gradient(to right, #7237ff, #2b81ff,  #7237ff);
+}
+
+/* slider */
+.slider .slider-content button{
+    padding: 10px 25px;
+    background: linear-gradient(to right, #2b81ff, #7237ff, #2b81ff);
+  }
+  .slider .slider-content button:hover{
+      background:linear-gradient(to right, #7237ff, #2b81ff,  #7237ff);
+  }
+  .slider .slider-content h2 {
+      font-size: 65px;
+      line-height: 1.2;
+  }
+  .slider .slider-content p{
+      color: var(--clr-bg-black);
+      font-size: 20px;
+  }
+  .slider .slider-content span{
+      color: var(--blue);
+  }
+  .slider .s-img{
+      overflow: hidden;
+  }
+  .br img{
+      border-radius: 15px;
+  }
+  .slider{
+      height: 100vh;
+  }
+  /* Wallet */
+  .blink{
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border: 6px solid var(--blue);
+    border-radius: 50%;
+    animation: live-pulse 1s infinite;
+}
+/* Live */
+.live .card .live-box{
+    overflow: hidden;
+} 
+.live .card img{
+    transition: all 1s;
+}
+.live .card img:hover{
+    transform: scale(1.1);
+}
+.live .card-body a{
+    transition: all 0.5s    ;
+    background: linear-gradient(to right, #2b81ff, #7237ff, #2b81ff);
+}
+.live .card-body a:hover{
+    background:linear-gradient(to right, #7237ff, #2b81ff,  #7237ff);
+}
+/* card */
+.card{
+    background: linear-gradient(to right bottom, #212428, #16181c) !important;
+}
+/* service */
+.service-content .service-box{
+    overflow: hidden;   
+    border-radius: 15px;
+}
+.service-content img{
+    transition: all 0.5s;
+}
+.service-content img:hover{
+    transform: scale(1.1);
+}
+.service-content img:hover {
+    border-radius: 15px;
+}
+.service-content  h5{
+    color: var(--white);
+    transition: all 0.5s;
+}
+.service-content  h5:hover{
+    color: var(--blue);
+}
+.service-box img{
+    border-radius: 15px !important;
+}
+/* top-seller */
+.top-seller img{
+    width: 80%;
+    border-radius: 50%;
+}
+.top-seller h2{
+    font-size: 40px;
+    color: var(--white);
+}
+.top-seller a {
+    color: var(--white);
+}
+.top-seller a:hover i{
+    color: var(--blue);
+}
+/* nft */
+.nft .card img{
+    width: 45%;
+}
+.nft .card img:hover{
+    transform: scale(1.1);
+}
+.card-body h4{
+    color: var(--white);
+}
+.card-body h4:hover{
+    color: var(--purple);
+}
+.nft .step{
+    color: var(--clr-common-body-text);
+}
+.nft .step h2:hover{
+    color: var(--white);
+}
+/* form */
+form{
+    text-align: start;
+}
