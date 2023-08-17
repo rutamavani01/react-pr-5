@@ -27,10 +27,10 @@ const Form = () => {
 
     return ( 
             <section className="form body-color">
-                <div className="container">
                     <div className="row">
-                        <div className="col-6">
-                          <form>
+                      <center>
+                           <div className="col-6">
+                              <form>
                                 <div className="mb-3">
                                     <label for="exampleInputEmail1" className="form-label"></label>
                                     <input type="email" className="form-control" id="exampleInputEmail1"  placeholder="Email address" aria-describedby="emailHelp"  name="email" onChange={{handleChange}} />
@@ -47,13 +47,9 @@ const Form = () => {
                                     <label className="form-check-label" for="exampleCheck1">Check me out</label>
                                 </div>
                                 <button type="submit" className="btn btn-primary"  onClick={ () => handleSubmit() } >Submit</button>
-                        </form>
-                        </div>
-                        {/* <div className="col-6 p-4">
-                            <h4 className='text-white pb-3'>Enter your feedback</h4>
-                            <textarea placeholder='Enter your feedback'></textarea>
-                        </div> */}
-                    </div>
+                            </form>
+                         </div>
+                      </center>
                 </div>
             </section>
     )
